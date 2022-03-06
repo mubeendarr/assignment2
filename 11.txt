@@ -1,0 +1,52 @@
+void main() {
+  var english = 83;
+  var maths = 94;
+  var islamiat = 85;
+  var urdu = 80;
+  var science = 87;
+  var student_name="Muhammad Hashir";
+
+  var obtain_marks=(english + maths + islamiat + urdu + science);
+  var total = 500;
+  var percentage =obtain_marks/total*100;
+  
+  print("Student Name is: $student_name");
+  print("Marks of English is: $english");
+  print("Marks of Math is: $maths");
+  print("Marks of Islamiat is: $islamiat");
+  print("Marks of Urdu is: $urdu");
+  print("Marks of Science is: $science");
+  print("Total Marks: $obtain_marks");
+  print("Your Percentage is: $percentage%");
+  
+  if (percentage >= 91)
+    {
+        print("Grade is A+ | Excellent'Keep it Up");
+    }
+  
+    else if (percentage >= 80 && percentage <= 90)
+    {
+        print("Grade is A | Good Work");
+    }
+  
+    else if (percentage >= 60 && percentage <= 79)
+    {
+        print("Grade is B | Not Bad");
+    }
+  
+    else if (percentage >= 45 && percentage <= 59)
+    {
+        print("Grade is C | Hard Work is Needed");
+    }
+ 
+    else if (percentage >= 35 && percentage <= 44)
+    {
+        print("Grade is D | Hard Work is Needed");
+    }
+  
+    else
+    {
+        print("Grade is F | Focus on your Studies");
+    }
+  
+}
